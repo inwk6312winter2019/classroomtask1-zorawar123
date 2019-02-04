@@ -1,5 +1,5 @@
 import os
-cwd = os.getcwd()
+cwd = os.getcwd() # os fuction
 display = os.listdir()
 
 print(display)
