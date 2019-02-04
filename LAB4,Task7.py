@@ -5,7 +5,7 @@ def new_pattern(word):
     for p in punc:
         string1 = word.strip()
         string1 = word.replace(p,'')
-    return(string)
+    return(string1)
 def sed(f1,f2):
      try:
         father = open(f1,"r")
