@@ -1,7 +1,7 @@
 import string
 def new_pattern(word):
     punc = string.punctuation
-    string1 = " " # sting variable
+    string1 = " " # sting variable is defined
     for p in punc:
         string1 = word.strip()
         string1 = word.replace(p,'')
