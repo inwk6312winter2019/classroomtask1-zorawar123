@@ -1,4 +1,4 @@
-import os
+import os # import os directory
  l = []
 def list1(directname)
     for name in os.listdir(directname):
