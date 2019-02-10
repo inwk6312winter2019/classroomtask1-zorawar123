@@ -53,4 +53,4 @@ def matplot(log1,log2):
     pyplot.ylabel(“frequency”)
     pyplot.plot(log1,log2)
     pyplot.show()
-
+matplot(log1,log2)

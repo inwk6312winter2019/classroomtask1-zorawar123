@@ -28,7 +28,7 @@ def repeted_word(dic):
         list2.append(value)
     for i in range(0,len(list2),2):
         sub.append(list2[i:i+2])
-    sub.sort(key = lambda x:x[1],reverse = True)
+    sub.sort(key = lambda x:x[1],reverse = True) # lambda is a special function will return the key value as x and reverse is used to traverse the list 
     for i in range(0,20):
         list3 = sub[i]
         for  j in range(0,len(list3),2):
